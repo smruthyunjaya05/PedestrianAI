@@ -13,9 +13,9 @@
 <!-- This HTML table creates the side-by-side layout for the logo and overview -->
 <table>
   <tr>
-    <!-- *** FIX: Added align="center" to center the logo within its column *** -->
-    <td valign="top" width="200" align="center">
-      <img src="assets/app_logo_rounded.png" alt="PedestrianAI Logo" width="180"/>
+    <!-- *** FIX: Changed valign to "middle" to vertically center the logo *** -->
+    <td valign="middle" width="200" align="center">
+      <img src="app/src/main/assets/app_logo_rounded.png" alt="PedestrianAI Logo" width="180"/>
     </td>
     <td valign="top">
       <h2>🎯 Overview</h2>
@@ -37,9 +37,8 @@
 
 ## 🖥️ Live Demo & Screenshots
 
-<!-- *** FIX: Resized screenshots and placed them in a 2-column layout using tables *** -->
 <div align="center">
-    <img src="assets/home_screen.png" alt="Home Screen" width="60%"/>
+    <img src="app/src/main/assets/home_screen.png" alt="Home Screen" width="60%"/>
     <br/>
     <sub><strong>🏠 Home Screen:</strong> A clean, modern entry point offering three distinct detection modes.</sub>
 </div>
@@ -48,24 +47,24 @@
 <table>
   <tr>
     <td align="center">
-      <img src="assets/live_detection.png" alt="Live Camera Detection" width="95%"/>
+      <img src="app/src/main/assets/live_detection.png" alt="Live Camera Detection" width="95%"/>
       <br/>
       <sub><strong>📸 Live Camera Detection:</strong> Real-time overlay with bounding boxes on a live camera feed.</sub>
     </td>
     <td align="center">
-      <img src="assets/image_results.png" alt="Image Analysis Results" width="95%"/>
+      <img src="app/src/main/assets/image_results.png" alt="Image Analysis Results" width="95%"/>
       <br/>
       <sub><strong>🖼️ Image Analysis:</strong> Detailed breakdown of an uploaded image with numbered detections.</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/video_processing.png" alt="Video Processing UI" width="95%"/>
+      <img src="app/src/main/assets/video_processing.png" alt="Video Processing UI" width="95%"/>
       <br/>
       <sub><strong>⏳ Video Processing:</strong> A clear progress screen that informs the user during analysis.</sub>
     </td>
     <td align="center">
-      <img src="assets/video_results.png" alt="Video Analysis Results" width="95%"/>
+      <img src="app/src/main/assets/video_results.png" alt="Video Analysis Results" width="95%"/>
       <br/>
       <sub><strong>🎞️ Video Results:</strong> Memory-safe playback of the final video with detections "baked in".</sub>
     </td>
