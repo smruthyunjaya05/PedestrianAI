@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The main theme for your application -->
+    <style name="Theme.PedestrianAI" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- *** FIX 1: Use our custom white color that is not affected by dark mode *** -->
+        <item name="windowSplashScreenBackground">@color/splash_background_white</item>
+
+        <!-- *** FIX 2: Use the standard @mipmap/ic_launcher for a crisp, adaptive icon *** -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Set the theme of the Activity that will appear after the splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.PedestrianAI</item>
+    </style>
+</resources>
