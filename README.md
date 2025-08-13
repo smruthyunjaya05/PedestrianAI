@@ -13,9 +13,9 @@
 <!-- This HTML table creates the side-by-side layout for the logo and overview -->
 <table>
   <tr>
-    <td valign="top" width="200">
-      <!-- *** FIX: Changed the image source to the new rounded logo *** -->
-      <img src="app/src/main/assets/app_logo_rounded.png" alt="PedestrianAI Logo" width="180"/>
+    <!-- *** FIX: Added align="center" to center the logo within its column *** -->
+    <td valign="top" width="200" align="center">
+      <img src="assets/app_logo_rounded.png" alt="PedestrianAI Logo" width="180"/>
     </td>
     <td valign="top">
       <h2>🎯 Overview</h2>
@@ -37,26 +37,40 @@
 
 ## 🖥️ Live Demo & Screenshots
 
+<!-- *** FIX: Resized screenshots and placed them in a 2-column layout using tables *** -->
 <div align="center">
-  <img src="app/src/main/assets/home_screen.png" alt="Home Screen" width="80%"/>
-  <br/>
-  <sub><strong>🏠 Home Screen:</strong> A clean, modern entry point offering three distinct detection modes: Live, Image, and Video analysis.</sub>
-  <br/><br/>
-  <img src="app/src/main/assets/live_detection.png" alt="Live Camera Detection" width="80%"/>
-  <br/>
-  <sub><strong>📸 Live Camera Detection:</strong> An interactive, real-time camera view that draws bounding boxes around detected pedestrians, complete with inference time stats.</sub>
-  <br/><br/>
-  <img src="app/src/main/assets/image_results.png" alt="Image Analysis Results" width="80%"/>
-  <br/>
-  <sub><strong>🖼️ Image Analysis:</strong> Upload an image to receive a detailed breakdown, including numbered bounding boxes, total pedestrian count, and a list of individual confidence scores.</sub>
-  <br/><br/>
-  <img src="app/src/main/assets/video_processing.png" alt="Video Processing UI" width="80%"/>
-  <br/>
-  <sub><strong>⏳ Video Processing:</strong> A clear, themed progress screen informs the user while the robust background pipeline analyzes the video frame by frame.</sub>
-  <br/><br/>
-  <img src="app/src/main/assets/video_results.png" alt="Video Analysis Results" width="80%"/>
-  <br/>
-  <sub><strong>🎞️ Video Results:</strong> The memory-safe playback screen shows the final video with all bounding boxes "baked in," along with frame-by-frame detection statistics.</sub>
+    <img src="assets/home_screen.png" alt="Home Screen" width="60%"/>
+    <br/>
+    <sub><strong>🏠 Home Screen:</strong> A clean, modern entry point offering three distinct detection modes.</sub>
+</div>
+<br/>
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/live_detection.png" alt="Live Camera Detection" width="95%"/>
+      <br/>
+      <sub><strong>📸 Live Camera Detection:</strong> Real-time overlay with bounding boxes on a live camera feed.</sub>
+    </td>
+    <td align="center">
+      <img src="assets/image_results.png" alt="Image Analysis Results" width="95%"/>
+      <br/>
+      <sub><strong>🖼️ Image Analysis:</strong> Detailed breakdown of an uploaded image with numbered detections.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/video_processing.png" alt="Video Processing UI" width="95%"/>
+      <br/>
+      <sub><strong>⏳ Video Processing:</strong> A clear progress screen that informs the user during analysis.</sub>
+    </td>
+    <td align="center">
+      <img src="assets/video_results.png" alt="Video Analysis Results" width="95%"/>
+      <br/>
+      <sub><strong>🎞️ Video Results:</strong> Memory-safe playback of the final video with detections "baked in".</sub>
+    </td>
+  </tr>
+</table>
 </div>
 
 ---
@@ -79,22 +93,6 @@
 - **Frame-by-Frame Analysis**: Uses `MediaMetadataRetriever` to reliably extract frames from a video file.
 - **UI Feedback**: A dynamic progress screen keeps the user informed during the analysis phase.
 - **Animated Playback**: After processing is complete, the app plays back the sequence of saved JPEGs, creating a smooth video result.
-
----
-
-## 🛠️ Getting Started
-
-### 📋 Prerequisites
-- **Android Studio** (Hedgehog or newer recommended)
-- **Android SDK** (API Level 34 recommended)
-- **An Android device or emulator** with API Level 26 or higher
-
-### ⚡ Quick Start
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd PedestrianAI
 
 ---
 
