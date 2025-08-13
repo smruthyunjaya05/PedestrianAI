@@ -15,7 +15,7 @@
   <tr>
     <td valign="top" width="200">
       <!-- *** FIX: Changed the image source to the new rounded logo *** -->
-      <img src="assets/app_logo_rounded.png" alt="PedestrianAI Logo" width="180"/>
+      <img src="app/src/main/assets/app_logo_rounded.png" alt="PedestrianAI Logo" width="180"/>
     </td>
     <td valign="top">
       <h2>🎯 Overview</h2>
@@ -38,23 +38,23 @@
 ## 🖥️ Live Demo & Screenshots
 
 <div align="center">
-  <img src="assets/home_screen.png" alt="Home Screen" width="80%"/>
+  <img src="app/src/main/assets/home_screen.png" alt="Home Screen" width="80%"/>
   <br/>
   <sub><strong>🏠 Home Screen:</strong> A clean, modern entry point offering three distinct detection modes: Live, Image, and Video analysis.</sub>
   <br/><br/>
-  <img src="assets/live_detection.png" alt="Live Camera Detection" width="80%"/>
+  <img src="app/src/main/assets/live_detection.png" alt="Live Camera Detection" width="80%"/>
   <br/>
   <sub><strong>📸 Live Camera Detection:</strong> An interactive, real-time camera view that draws bounding boxes around detected pedestrians, complete with inference time stats.</sub>
   <br/><br/>
-  <img src="assets/image_results.png" alt="Image Analysis Results" width="80%"/>
+  <img src="app/src/main/assets/image_results.png" alt="Image Analysis Results" width="80%"/>
   <br/>
   <sub><strong>🖼️ Image Analysis:</strong> Upload an image to receive a detailed breakdown, including numbered bounding boxes, total pedestrian count, and a list of individual confidence scores.</sub>
   <br/><br/>
-  <img src="assets/video_processing.png" alt="Video Processing UI" width="80%"/>
+  <img src="app/src/main/assets/video_processing.png" alt="Video Processing UI" width="80%"/>
   <br/>
   <sub><strong>⏳ Video Processing:</strong> A clear, themed progress screen informs the user while the robust background pipeline analyzes the video frame by frame.</sub>
   <br/><br/>
-  <img src="assets/video_results.png" alt="Video Analysis Results" width="80%"/>
+  <img src="app/src/main/assets/video_results.png" alt="Video Analysis Results" width="80%"/>
   <br/>
   <sub><strong>🎞️ Video Results:</strong> The memory-safe playback screen shows the final video with all bounding boxes "baked in," along with frame-by-frame detection statistics.</sub>
 </div>
