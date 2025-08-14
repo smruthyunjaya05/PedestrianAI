@@ -4,7 +4,6 @@
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-1.6.8-4285F4.svg)](https://developer.android.com/jetpack/compose)
 [![TensorFlow Lite](https://img.shields.io/badge/TensorFlow-Lite-FF6F00.svg)](https://www.tensorflow.org/lite)
 [![CameraX](https://img.shields.io/badge/CameraX-1.3.1-3DDC84.svg)](https://developer.android.com/training/camerax)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **Harnessing the power of on-device AI to identify pedestrians in real-time, from images, and in videos.** 🚀
 
